@@ -12,6 +12,7 @@ class CategoryItems extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset(
             ImageCategory,
